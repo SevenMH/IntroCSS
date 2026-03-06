@@ -1,0 +1,49 @@
+/* Reset y estilos base */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #fff;
+}
+
+/* Contenedor principal */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Encabezado */
+header {
+    background-color: #f4f4f4;
+    padding: 20px 0;
+}
+
+/* Navegación */
+nav a {
+    color: #333;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+nav a:hover {
+    color: #007bff;
+}
+
+/* Pie de página */
+footer {
+    background-color: #f4f4f4;
+    padding: 20px 0;
+    margin-top: 40px;
+    text-align: center;
+}
